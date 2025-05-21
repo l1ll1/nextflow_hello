@@ -10,6 +10,8 @@ process sayHello {
     script:
     """
     echo '${x} world!'
+    hostname
+    env
     """
 }
 
